@@ -24,7 +24,7 @@
   margin-right: 16px;
   transition: transform 0.5s ease-in-out;
 }
-.page-close-button:hover{
+.page-close-button:hover {
   transform: rotate(180deg);
 }
 
@@ -46,97 +46,71 @@
   width: 416px;
   height: 60px;
   flex-shrink: 0;
+}
 
+.text,
+.text2,
+.text3,
+.heading,
+.head1,
+.text4,
+.text5,
+.footer {
+  color: #FFF;
+  text-align: center;
 }
 
 .text {
-  color: #FFF;
-  text-align: center;
   font-family: Roboto;
   font-size: 45px;
-  font-style: normal;
   font-weight: 200;
   line-height: 48px;
-  /* 106.667% */
   letter-spacing: 0.96px;
   text-transform: capitalize;
 }
 
 .text2 {
-  color: #FFF;
-  text-align: center;
   font-family: Poppins;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .text3 {
-  color: #FFF;
-  text-align: center;
   font-family: Roboto;
   font-size: 19px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   letter-spacing: 0.38px;
   text-transform: capitalize;
 }
 
 .heading {
   padding-top: 50px;
-  color: #FFF;
   font-family: Roboto;
   font-size: 42px;
-  font-style: normal;
   font-weight: 200;
   line-height: 48px;
-  /* 114.286% */
   text-transform: capitalize;
 }
 
 .head1 {
-  color: #FFF;
-  leading-trim: both;
-  text-edge: cap;
   font-family: Roboto;
   font-size: 80px;
-  font-style: normal;
   font-weight: 200;
-  line-height: 17.571px;
-  /* 21.963% */
+  line-height: 1.5;
 }
 
 .text4 {
-  color: #FFF;
-  text-align: center;
-  leading-trim: both;
-  text-edge: cap;
   font-family: Roboto;
   font-size: 25px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   padding-right: 20px;
 }
 
 .text5 {
-  color: #FFF;
-  text-align: center;
   font-family: Roboto;
   font-size: 24px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
-  width: 50%
-}
-
-.image-containers {
-  padding-top: 40px;
-  display: flex;
-  justify-content: center;
-  gap: 16px;
+  width: 50%;
 }
 
 .ButtonRow {
@@ -145,43 +119,39 @@
   width: 50%;
 }
 
-.ButtonRow button:first-child {
+.ButtonRow button {
   flex: 0.3;
-  background-color: black;
-  color: white;
-  width: 373px;
   height: 60px;
   flex-shrink: 0;
+}
+
+.ButtonRow button:first-child {
+  background-color: black;
+  color: white;
 }
 
 .ButtonRow button:last-child {
-  flex: 0.3;
   background-color: white;
   color: black;
-  width: 373px;
-  height: 60px;
-  flex-shrink: 0;
 }
 
-.image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-}
+@media screen and (max-width: 768px) {
+  .image-containers {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
 
-.text-and-buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-}
-.footer{
-  padding-top: 70px;
-  color: #FFF;
-font-family: Roboto;
-font-size: 19px;
-font-style: normal;
-font-weight: 300;
-line-height: 26px; /* 136.842% */
+  .image-container {
+    width: 100%;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .ButtonRow {
+    width: 100%;
+  }
 }
