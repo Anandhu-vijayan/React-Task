@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Task/static/css/main.699c2eac.css",
+    "main.js": "/React-Task/static/js/main.649df244.js",
+    "static/js/787.caaea2da.chunk.js": "/React-Task/static/js/787.caaea2da.chunk.js",
+    "static/media/fortnite-pictures-b5kfcchwazwiz3cs 1.png": "/React-Task/static/media/fortnite-pictures-b5kfcchwazwiz3cs 1.c1c51112b9871ff18544.png",
+    "static/media/ 1.png": "/React-Task/static/media/5daa24d7cc4a0a62650c6b28 1.467f3a0fc7c2dc0310d1.png",
+    "static/media/maxresdefault 1.png": "/React-Task/static/media/maxresdefault 1.b6cb3414f4dbf68efd26.png",
+    "static/media/Fortnite_20180630171046 1.png": "/React-Task/static/media/Fortnite_20180630171046 1.0b82c7a69a9293e924f6.png",
+    "index.html": "/React-Task/index.html",
+    "main.699c2eac.css.map": "/React-Task/static/css/main.699c2eac.css.map",
+    "main.649df244.js.map": "/React-Task/static/js/main.649df244.js.map",
+    "787.caaea2da.chunk.js.map": "/React-Task/static/js/787.caaea2da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.699c2eac.css",
+    "static/js/main.649df244.js"
+  ]
+}
